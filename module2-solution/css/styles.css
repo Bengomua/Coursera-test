@@ -1,0 +1,13 @@
+/*
+    File    : styles.css
+    Author  : Benjamin Mua Ngong <benjaminmuatao.bm@gmail.com>
+     Summary : HTML markup for assignment 2 of the course HTML, CSS and 
+                Javascript for Web developers from Coursera
+
+    Last Update: 2019-04-11
+*/
+
+h1{
+    font-size: 160%;
+    color: green;
+}
