@@ -1,0 +1,146 @@
+/*
+    File    : styles.css
+    Author  : Benjamin Mua Ngong <benjaminmuatao.bm@gmail.com>
+     Summary : HTML markup for assignment 2 of the course HTML, CSS and 
+                Javascript for Web developers from Coursera
+
+    Last Update: 2019-04-19
+*/
+/* *****************************************************
+Default styles here
+- Style the font type, font size, background color here
+*********************************************************/
+/* Example how to call the headline and style it*/
+
+body,
+html {
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    font-size: 1em;
+    /* The default font size for all fonts. You can change this per element*/
+    margin: 0 auto;
+    /* position the content at the center of the page */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* This one is same for all views*/
+#headline {
+    font-size: 130%;
+    /* 120% of 12px => approx 14 px;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container {
+    background-color: lightgrey;
+    margin: 5%;
+}
+
+/**
+ Notice that the headers do not change position and colors. You can change them all here
+ */
+.columnHeader {
+
+    /* Style the font and border  and position here*/
+}
+
+
+#column1Header {
+    /*style the background color here */
+}
+
+#column2Header {
+    /*style the background color here */
+}
+
+
+#column3Header {
+    /*style the background color here */
+}
+
+/* 
+Desktop view 
+The browser should display a desktop version of the site when the width of the browser window is 992px and above.
+*/
+@media screen and (min-width: 992px) {
+    #container {
+        /* How do you want the container to display*/
+
+    }
+
+    #column1 {
+        /* Style this column here */
+        background-color: yellow;
+    }
+
+
+    #column2 {
+        background-color: blueviolet;
+    }
+
+
+    #column3 {
+        background-color: green;
+    }
+
+
+}
+
+/* 
+Tablet view
+Tablet view should appear only if the width of the browser window is between 768px and 991px
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #container {
+        /* How do you want the container to display*/
+
+    }
+
+    #column1 {
+        /* Style this column here */
+        background-color: magenta;
+    }
+
+
+    #column2 {
+        background-color: cyan;
+    }
+
+
+    #column3 {
+        background-color: yellow;
+    }
+
+}
+
+/* 
+Mobile View
+Mobile view should appear only if the width of the browser is equal to or less than 767px.
+
+*/
+@media screen and (max-width: 767px) {
+    #container {
+        /* How do you want the container to display*/
+
+    }
+
+    #column1 {
+        /* Style this column here */
+        background-color: blue;
+    }
+
+
+    #column2 {
+        background-color: grey;
+    }
+
+
+    #column3 {
+        background-color: turquoise;
+    }
+
+}
